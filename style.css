@@ -66,3 +66,21 @@ nav ul li a:hover {
     padding: 20px;
     border-radius: 5px;
 }
+
+#section1 {
+    background-color: #003366;
+    display: flex;
+}
+
+#about {
+    width: 35%;
+}
+
+#avatar {
+    width: 35%;
+}
+
+#image {
+    width: 200px;
+    height: auto;
+}
