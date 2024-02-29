@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-    background-color: #003366;
+    background-color: #323647;
     padding: 15px 0;
 }
 
@@ -70,13 +70,12 @@ nav ul li a:hover {
 #whoami {
     font-size: 18px;
     line-height: 1.5;
-    font-family: sans-serif, "Arial Black";
+    font-family: Hack, monospace;
 }
 
 #section1 {
     width: 80%;
-    background-color: #003366;
-    /*margin: 0 auto;*/
+    background-color: #323647;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -96,7 +95,9 @@ nav ul li a:hover {
 
 .section {
     width: 48%; /* Adjusted width */
-    background-color: #F5F5F5;
+    background-color: #282939;
+    color: #F5F5F5;
+    font-family: Hack, monospace;
     padding: 20px;
     border-radius: 10px;
 }
@@ -107,6 +108,8 @@ nav ul li a:hover {
     align-items: center;
     width: 40%;
     margin-right: 5%;
+    font-size: 18px;
+    font-family: Hack, monospace;
 }
 #about {
     width: 40%;
@@ -129,8 +132,9 @@ nav ul li a:hover {
 
 #skills {
     width: 80%;
-    background-color: #003366;
+    background-color: #323647;
     color: #fff;
+    font-family: Hack, monospace;
 }
 
 #skills h2 {
