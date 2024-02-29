@@ -32,23 +32,23 @@ nav ul li a:hover {
     background-color: #0059b3;
 }
 
-#header_left {
+#header1 {
     color:white;
     padding: 20px;
 }
 
-#header_right {
+#header2 {
     display: flex;
     justify-content: space-around;
     margin-right: 10px;
     padding: 10px;
 }
 
-#header_right a:hover {
+#header2 a:hover {
     color: #333;
 }
 
-#header_right a {
+#header2 a {
     display: inline-block;
     padding: 10px 20px;
     border: 2px solid #fff;
@@ -62,7 +62,7 @@ nav ul li a:hover {
 .section {
     width: 90%;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #F5F5F5;
     padding: 20px;
     border-radius: 5px;
 }
@@ -81,6 +81,7 @@ nav ul li a:hover {
 
 #about {
     width: 45%;
+    background-color: #F5F5F5;
 }
 
 #avatar {
