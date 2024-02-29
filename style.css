@@ -87,6 +87,8 @@ nav ul li a:hover {
 #avatar {
     width: 25%;
     justify-content: center;
+    align-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -95,18 +97,49 @@ nav ul li a:hover {
 }
 
 #image {
-    width: 200px;
+    width: 150px;
     height: auto;
-    padding: 45px;
+    padding: 20%;
 }
 
 .subtitle {
-    width: 40%;
+    width: 15%;
     margin: 20px auto;
     background-color: #F5F5F5;
     padding: 30px;
     border-radius: 5px;
 }
+
+.subtitle h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+#skills {
+    width: 50%;
+    background-color: #003366;
+    color: #fff;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    margin: 0 10px; /* Adjust as needed for spacing between columns */
+}
+
+.skills-list {
+    padding-left: 20px; /* Add left padding to create space for the bullet points */
+}
+
+.skills-list li {
+    margin-bottom: 10px; /* Adjust as needed for spacing between skills */
+}
+
 
 
 
