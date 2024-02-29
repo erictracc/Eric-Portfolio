@@ -67,20 +67,34 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+#whoami {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: sans-serif, "Arial Black";
+}
+
 #section1 {
+    width: 80%;
     background-color: #003366;
     display: flex;
 }
 
 #about {
-    width: 35%;
+    width: 45%;
 }
 
 #avatar {
-    width: 35%;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_info {
+    text-align: center;
 }
 
 #image {
     width: 200px;
     height: auto;
+    padding: 45px;
 }
