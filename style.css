@@ -118,27 +118,38 @@ nav ul li a:hover {
 }
 
 #skills {
-    width: 50%;
+    width: 80%;
     background-color: #003366;
     color: #fff;
 }
 
+
+
+
 .skills-container {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.column {
-    margin: 0 10px; /* Adjust as needed for spacing between columns */
+.skill {
+    width: calc(33.33% - 10px); /* Adjust for spacing */
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.skills-list {
-    padding-left: 20px; /* Add left padding to create space for the bullet points */
+.skill-icon img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Adjust as needed */
 }
 
-.skills-list li {
-    margin-bottom: 10px; /* Adjust as needed for spacing between skills */
+.skill-name {
+    margin-top: 10px;
+    font-size: 18px;
 }
+
+
 
 
 
