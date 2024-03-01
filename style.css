@@ -351,7 +351,7 @@ nav ul li a:hover {
 }
 
 #contact {
-    width: 60%;
+    width: 70%;
     padding: 15px; /* Adjusts space */
     background-color: #323647;
     border-radius: 10px;
@@ -383,8 +383,7 @@ nav ul li a:hover {
     font-size: 14px;
 }
 
-.input-group input,
-.input-group textarea {
+.input-group input, .input-group textarea {
     width: calc(100% - 22px); /* Adjusts the width */
     padding: 8px;
     font-size: 14px;
