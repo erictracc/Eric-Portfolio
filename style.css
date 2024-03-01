@@ -412,6 +412,40 @@ nav ul li a:hover {
 
 
 
+.email-link {
+    margin-bottom: 400px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.email-text {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.email-link button {
+    width: 150px;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #5CAB7D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.email-link button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
 footer {
     background-color: #1C1C1C;
     color: #fff;
