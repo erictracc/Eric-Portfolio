@@ -96,7 +96,7 @@ nav ul li a:hover {
 }
 
 #section1 {
-    width: 100%;
+    width: 90%;
     background-color: #323647;
     padding: 20px;
     margin-top: 20px;
@@ -318,7 +318,6 @@ nav ul li a:hover {
     top: 100%;
     left: 0;
     width: 100%;
-    max-width: 100%;
     background-color: #323647;
     max-height: 300px; /* Example maximum height */
     overflow-y: auto; /* Add scrollbar if content exceeds max-height */
@@ -332,7 +331,6 @@ nav ul li a:hover {
 .experience-item:hover .info {
     opacity: 1;
     visibility: visible;
-    max-width: 100%;
 }
 
 
