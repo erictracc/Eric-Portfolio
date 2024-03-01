@@ -39,23 +39,6 @@ nav ul li a:hover {
     align-items: center;
 }
 
-/*
-.text-container {
-    flex: 1;
-}
-
-#headshot-image {
-    width: 200px;
-    height: auto;
-    object-fit: cover;
-    margin-right: 20%;
-}
-
-#header1 {
-    padding: 150px;
-}
-*/
-
 .text-container {
     flex: 1;
     max-width: 60%;
@@ -100,10 +83,10 @@ nav ul li a:hover {
 
 .section {
     width: 90%;
-    margin: 60px auto;
     background-color: #F5F5F5;
     padding: 15px;
     border-radius: 5px;
+    margin: 100px auto;
 }
 
 .who {
@@ -291,55 +274,66 @@ nav ul li a:hover {
 }
 
 
-
-/* Styling for the experience section */
+/* experience section design*/
 #experience {
     text-align: center;
+    padding-top: 20px;
 }
 
-#experience h2,
+#experience h2 {
+    margin-top: 50px;
+}
+
 #experience p {
-    margin-bottom: 20px;
-}
-
-.experience-container {
-    display: flex;
-    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .experience-item {
-    width: 30%; /* Adjusted to fit the layout */
-    position: relative;
-    overflow: hidden;
+    width: calc(30% - 20px); /* Adjusted to fit the layout with some spacing */
+    display: inline-block; /* Display items horizontally */
+    vertical-align: top; /* Align items to the top */
+    margin-right: 20px; /* Add spacing between items */
+    margin-bottom: 250px;
 }
 
 .experience-item img {
-    width: 100%;
+    max-width: 50%;
     height: auto;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
+    cursor: pointer;
 }
 
 .experience-item:hover img {
-    transform: scale(1.1);
+    transform: scale(1.2);
+}
+
+.experience-item {
+    position: relative; /* Ensure .info is positioned relative to this */
 }
 
 .info {
     position: absolute;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 10px;
+    padding: 20px; /* Adjust padding as needed */
     top: 100%;
     left: 0;
     width: 100%;
-    height: auto;
+    background-color: #323647;
+    max-height: 300px; /* Example maximum height */
+    overflow-y: auto; /* Add scrollbar if content exceeds max-height */
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
+    font-size: 14px; /* Adjust font size as needed */
+    line-height: 1.4; /* Adjust line height as needed */
 }
 
 .experience-item:hover .info {
     opacity: 1;
     visibility: visible;
 }
+
+
+
 
 
 
@@ -352,12 +346,12 @@ nav ul li a:hover {
     /*overflow: hidden;*/
     width: 100%;
     height: 600px; /* Adjusts height */
-    margin-top: 150px; /* Adds margin to create space above the contact section */
-    margin-bottom: 150px; /* Adds margin to create space below the contact section */
+    margin-top: 150px; /* Adds margin to create space above each section */
+    margin-bottom: 150px; /* Adds margin to create space below each section */
 }
 
 #contact {
-    width: 50%;
+    width: 60%;
     padding: 15px; /* Adjusts space */
     background-color: #323647;
     border-radius: 10px;
