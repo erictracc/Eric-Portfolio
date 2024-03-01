@@ -325,13 +325,14 @@ nav ul li a:hover {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
-    font-size: 14px; /* Adjust font size as needed */
-    line-height: 1.4; /* Adjust line height as needed */
+    font-size: 12px; /* Adjust font size as needed */
+    line-height: 1.2; /* Adjust line height as needed */
 }
 
 .experience-item:hover .info {
     opacity: 1;
     visibility: visible;
+    max-width: 100%;
 }
 
 
