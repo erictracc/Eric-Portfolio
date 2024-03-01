@@ -269,6 +269,60 @@ nav ul li a:hover {
 
 
 
+/* Styling for the experience section */
+#experience {
+    text-align: center;
+}
+
+#experience h2,
+#experience p {
+    margin-bottom: 20px;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-item {
+    width: 30%; /* Adjusted to fit the layout */
+    position: relative;
+    overflow: hidden;
+}
+
+.experience-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.experience-item:hover img {
+    transform: scale(1.1);
+}
+
+.info {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.experience-item:hover .info {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
+
 .contact-container {
     display: flex;
     justify-content: center;
