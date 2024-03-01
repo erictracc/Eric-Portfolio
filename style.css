@@ -295,6 +295,8 @@ nav ul li a:hover {
     vertical-align: top; /* Align items to the top */
     margin-right: 20px; /* Add spacing between items */
     margin-bottom: 250px;
+    filter: grayscale(1);
+    position: relative; /* Ensure .info is positioned relative to this */
 }
 
 .experience-item img {
@@ -304,12 +306,12 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-.experience-item:hover img {
-    transform: scale(1.2);
+.experience-item:hover {
+    filter: revert; /* makes the photo have color when hovered*/
 }
 
-.experience-item {
-    position: relative; /* Ensure .info is positioned relative to this */
+.experience-item:hover img {
+    transform: scale(1.2); /*1.2x he size of the photo when hovered*/
 }
 
 .info {
