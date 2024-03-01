@@ -96,7 +96,7 @@ nav ul li a:hover {
 }
 
 #section1 {
-    width: 80%;
+    width: 100%;
     background-color: #323647;
     padding: 20px;
     margin-top: 20px;
@@ -201,9 +201,9 @@ nav ul li a:hover {
 /* Styling for the portfolio/projects section */
 #portfolio {
     background-color: #323647;
-    padding: 40px 2%;
+    /*padding: 40px 2%;*/
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 80%;
     width: 100%;
     color: #fff;
 }
@@ -278,6 +278,7 @@ nav ul li a:hover {
 #experience {
     text-align: center;
     padding-top: 20px;
+    max-width: 100%;
 }
 
 #experience h2 {
@@ -317,6 +318,7 @@ nav ul li a:hover {
     top: 100%;
     left: 0;
     width: 100%;
+    max-width: 100%;
     background-color: #323647;
     max-height: 300px; /* Example maximum height */
     overflow-y: auto; /* Add scrollbar if content exceeds max-height */
