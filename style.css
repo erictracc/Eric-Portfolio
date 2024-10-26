@@ -335,7 +335,7 @@ nav ul li a:hover {
     display: inline-block; /* Displays items horizontally */
     vertical-align: top; /* Aligns items to the top */
     margin-right: 20px; /* Adds spacing between items */
-    margin-bottom: 250px; /* Increases the bottom margin */
+    margin-bottom: 400px; /* Increases the bottom margin */
     filter: grayscale(1); /* Applies a grayscale effect */
     position: relative; /* Positioning for .info */
 }
@@ -551,6 +551,7 @@ footer {
 @media (max-width: 768px) {
     body {
         font-size: 14px; /* Slightly smaller font for mobile */
+        overflow-x: hidden; /* Prevent horizontal scrolling */
     }
 
     nav ul li {
@@ -592,8 +593,17 @@ footer {
     }
 
     .experience-item {
-        width: 100%; /* Full width for experience items */
-        margin-bottom: 20px; /* Adjust margin */
+        width: 50%; /* Full width for experience items */
+        margin-bottom: 400px; /* Adjust margin */
+    }
+
+    /* Adjust experience images specifically */
+    .experience-image {
+        width: 30%; /* Full width for experience images */
+        max-width: 200px; /* Limit the maximum width */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center the image */
+        padding-bottom: 100px;
     }
 
     /* Adjust the contact section */
@@ -606,11 +616,20 @@ footer {
     #contact {
         width: 100%; /* Full width for contact section */
         padding: 20px; /* Increased padding */
+        box-sizing: border-box; /* Include padding in width calculations */
     }
 
     #contact button {
         padding: 10px; /* Adjust padding for buttons */
         font-size: 14px; /* Adjust font size */
+    }
+
+    /* Adjust form fields */
+    #contact input,
+    #contact textarea {
+        width: 100%; /* Full width for form fields */
+        box-sizing: border-box; /* Include padding in width calculations */
+        margin-bottom: 10px; /* Space between fields */
     }
 
     /* Adjust footer */
@@ -619,4 +638,5 @@ footer {
         padding: 5px 0; /* Reduced padding */
     }
 }
+
 
