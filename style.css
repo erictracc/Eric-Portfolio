@@ -509,3 +509,163 @@ footer {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Slightly smaller font for mobile */
+    }
+
+    nav ul li {
+        display: block; /* Stack navigation items vertically */
+        margin: 10px 0; /* Add spacing between items */
+    }
+
+    .header-container {
+        padding: 50px 20px; /* Reduced padding */
+        flex-direction: column; /* Stack headshot and text */
+        align-items: center; /* Center items */
+    }
+
+    #headshot-image {
+        margin-right: 0; /* Remove margin on smaller screens */
+        margin-bottom: 20px; /* Add space below image */
+    }
+
+    .text-container {
+        max-width: 90%; /* Use a higher percentage for mobile */
+        margin: 0; /* Remove margins */
+    }
+
+    .section {
+        width: 90%; /* Set section width to 90% */
+        margin: 20px auto; /* Center with reduced margins */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    #content-wrapper {
+        flex-direction: column; /* Stack content vertically */
+    }
+
+    #skills .skills-container {
+        flex-direction: column; /* Stack skills vertically */
+    }
+
+    .experience-item {
+        width: 100%; /* Full width for experience items */
+        margin-bottom: 20px; /* Adjust margin */
+    }
+
+    /* Adjust the contact section */
+    .contact-container {
+        flex-direction: column; /* Stack items */
+        height: auto; /* Adjust height */
+        margin: 50px 0; /* Add margin */
+    }
+
+    #contact {
+        width: 100%; /* Full width for contact section */
+        padding: 20px; /* Increased padding */
+    }
+
+    #contact button {
+        padding: 15px; /* More padding on buttons */
+    }
+
+    /* Adjust footer */
+    footer {
+        font-size: 10px; /* Smaller footer font size */
+        padding: 5px 0; /* Reduced padding */
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust base font size */
+    }
+
+    nav ul li {
+        display: block; /* Stack navigation items */
+        margin: 10px 0; /* Space between items */
+    }
+
+    .header-container {
+        padding: 50px 20px; /* Reduced padding */
+        flex-direction: column; /* Stack elements */
+        align-items: center; /* Center items */
+    }
+
+    .text-container {
+        max-width: 90%; /* More responsive */
+        margin: 0; /* No margin */
+    }
+
+    .section {
+        width: 90%; /* Responsive section width */
+        margin: 20px auto; /* Center section */
+        padding: 10px; /* Adjust padding */
+    }
+
+    #content-wrapper {
+        flex-direction: column; /* Stack items */
+    }
+
+    .experience-item {
+        width: 100%; /* Full width */
+        margin-bottom: 20px; /* Adjust bottom margin */
+    }
+
+    .contact-container {
+        flex-direction: column; /* Stack items */
+        height: auto; /* Adjust height */
+        margin: 50px 0; /* Vertical margin */
+    }
+
+    #contact {
+        width: 100%; /* Full width */
+        padding: 20px; /* Increased padding */
+    }
+
+    footer {
+        font-size: 10px; /* Smaller footer font */
+        padding: 5px 0; /* Less padding */
+    }
+}
