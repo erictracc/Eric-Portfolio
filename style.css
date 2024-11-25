@@ -640,3 +640,61 @@ footer {
 }
 
 
+
+
+/* Styles for ITEC4020 AI Project section */
+#itec4020 {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#itec4020 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#itec4020 #metrics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#itec4020 #updateChartsButton {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#itec4020 #updateChartsButton:hover {
+    background-color: #0056b3;
+}
+
+#itec4020 #chartsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#itec4020 .chart-canvas {
+    flex: 1 1 45%;
+    min-width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#itec4020 {
+    align-content: center;
+}
+
+
