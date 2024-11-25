@@ -665,3 +665,44 @@ footer {
     cursor: pointer;
     display: block;
 }
+
+/* For Smaller Screens */
+@media (max-width: 768px) {
+    #metrics {
+        font-size: 14px; /* Reduce font size */
+        padding: 10px; /* Reduce padding */
+        width: 90%; /* Shrink width slightly */
+    }
+
+    #metrics * {
+        font-size: 0.9em; /* Scale down all child elements relatively */
+    }
+}
+
+/* For Extra Small Screens */
+@media (max-width: 480px) {
+    #metrics {
+        font-size: 12px; /* Further reduce font size */
+        padding: 5px; /* Further reduce padding */
+        width: 100%; /* Full width for very small screens */
+    }
+
+    #metrics * {
+        font-size: 0.8em; /* Further scale down child elements */
+    }
+}
+
+
+/* Medium Screens */
+@media (max-width: 768px) {
+    html {
+        font-size: 14px; /* 1rem = 14px */
+    }
+}
+
+/* Small Screens */
+@media (max-width: 480px) {
+    html {
+        font-size: 12px; /* 1rem = 12px */
+    }
+}
